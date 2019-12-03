@@ -118,6 +118,10 @@
   width: 100%;
   height: 100%;
 }
+
+.imageElement--middleImage{
+  width: 100%;
+}
 @media only screen and (max-width: 640px){
   .logoImage{
     width: 50px;
