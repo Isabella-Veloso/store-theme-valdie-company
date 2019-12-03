@@ -108,15 +108,11 @@
 
 .infoCardContainer--footimagecard .infoCardCallActionContainer{
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   margin: 0px;
 }
 .infoCardContainer--footimagecard .infoCardCallActionContainer :global(.vtex-button){
   visibility: hidden;
-  width: 100%;
-  height: 100%;
 }
 
 .imageElement--middleImage{
