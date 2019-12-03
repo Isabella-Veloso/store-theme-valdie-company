@@ -13,8 +13,8 @@
   },
   "header-layout.desktop": {
     "children": [
-      "header-row#1-desktop",
-      //"header-row#2-desktop",
+      //"header-row#1-desktop",
+      "header-row#2-desktop",
       "header-row#3-desktop",
       "header-row#4-desktop"
     ]
@@ -39,7 +39,8 @@
   },
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+      "content": "A sale for your CURLY HAIR",
+      "blockClass": "saleDiv"
     }
   },
   "header-row#3-desktop": {
