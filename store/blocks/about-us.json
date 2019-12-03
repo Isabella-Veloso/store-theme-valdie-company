@@ -25,8 +25,7 @@
 
   "rich-text#title-about-us": {
     "props": {
-      "text":
-      "# Create meaningful and relevant experiences.",
+      "text": "# Create meaningful and relevant experiences.",
       "blockClass": "title"
     }
   },
@@ -42,7 +41,7 @@
 
   "rich-text#about-us": {
     "props": {
-      "text": "**Optimized store framework** \n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+      "text": "Behind every great brand, there is a great mind. Our store was the dream of our owner in the 90's: a non-conformist who wanted to show his hair with pride during the 1990 World Cup.\nAfter years as a soccer player with dreams of changing the world,\nValderrama found his true calling: connecting the curiosity of people about his hair care routine,\nthe 90 's anxiety that came with the millennials age and the digital commerce world.\nThat was the birth of Valdie & Co,\nnot just a brand,\nto become a videogame personality and,\nmore than anything,\nto believe that great hair is everybody’ s right.\nALSO,\nWE USE NATURAL LOCAL PRODUCTS!",
       "blockClass": "about"
     }
   }
