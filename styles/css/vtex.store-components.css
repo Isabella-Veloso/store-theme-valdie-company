@@ -8,15 +8,21 @@
 .searchBarContainer {
   max-width: 265px;
 }
-.logoImage{
+
+.logoImage {
   width: 100px;
   padding: 10px;
 }
+
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;
   background-color: #fff;
   padding: 0px;
+}
+
+.notificationBarContainer {
+  font-size: 18px;
 }
 
 .newsletter {
@@ -77,49 +83,55 @@
   position: relative;
 }
 
-.infoCardContainer--footimagecard .infoCardHeadline{
+.infoCardContainer--footimagecard .infoCardHeadline {
   font-size: 25px;
   margin-top: 85px;
 }
+
 .infoCardContainer--footimagecard .infoCardHeadline,
-.infoCardContainer--footimagecard .infoCardSubhead{
+.infoCardContainer--footimagecard .infoCardSubhead {
   color: #fff;
 }
-.infoCardContainer--footimagecard .infoCardSubhead{
+
+.infoCardContainer--footimagecard .infoCardSubhead {
   opacity: 0;
 }
-.infoCardContainer--footimagecard .infoCardSubhead{
+
+.infoCardContainer--footimagecard .infoCardSubhead {
   opacity: 1;
   transition: 1s;
 }
-.infoCardContainer--footimagecard .infoCardTextContainer{
+
+.infoCardContainer--footimagecard .infoCardTextContainer {
   background: #851446de;
   transition: 1s;
   outline: 2px solid white;
   outline-offset: -30px;
 }
 
-.infoCardContainer--footimagecard .infoCardTextContainer{
+.infoCardContainer--footimagecard .infoCardTextContainer {
   height: 100%;
   width: 100%;
   margin: 0px;
   padding: 45px;
 }
 
-.infoCardContainer--footimagecard .infoCardCallActionContainer{
+.infoCardContainer--footimagecard .infoCardCallActionContainer {
   position: absolute;
   top: 0;
   margin: 0px;
 }
-.infoCardContainer--footimagecard .infoCardCallActionContainer :global(.vtex-button){
+
+.infoCardContainer--footimagecard .infoCardCallActionContainer :global(.vtex-button) {
   visibility: hidden;
 }
 
-.imageElement--middleImage{
+.imageElement--middleImage {
   width: 100%;
 }
-@media only screen and (max-width: 640px){
-  .logoImage{
+
+@media only screen and (max-width: 640px) {
+  .logoImage {
     width: 50px;
     padding: 10px;
   }
