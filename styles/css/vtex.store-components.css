@@ -9,11 +9,14 @@
 .searchBarContainer {
   max-width: 265px;
 }
-
+.logoImage{
+  width: 100px;
+  padding: 10px;
+}
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;
-  background-color: #E6F1E6;
+  background-color: #fff;
   padding: 0px;
 }
 
