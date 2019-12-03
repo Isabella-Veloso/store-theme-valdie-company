@@ -1,194 +1,74 @@
 {
-  "vtex.menu@2.x:menu#Products": {
+  "vtex.menu@2.x:menu#customer-service": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+      "menu-item#customer-service",
+      "menu-item#phone",
+      "menu-item#mail",
+      "menu-item#shipping"
     ]
   },
-  "menu-item#news": {
+  "menu-item#customer-service": {
     "props": {
-      "id": "menu-item-news",
+      "id": "menu-item-customer-service",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "tagTitle": "Customer Service",
+        "text": "Customer Service"
       }
     }
   },
-  "menu-item#blackfriday": {
+  "menu-item#phone": {
     "props": {
-      "id": "menu-item-black-friday",
+      "id": "phone",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "tel:555-1230-5534",
         "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "tagTitle": "Phone",
+        "text": "phone 555-1230-5534"
       }
     }
   },
-  "menu-item#sale": {
+  "menu-item#mail": {
     "props": {
-      "id": "menu-item-sale",
+      "id": "Mail",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "mailto:help@valdie.co",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "e-mail",
+        "text": "Contact Us"
       }
     }
   },
-  "menu-item#personalization": {
+  "menu-item#shipping": {
     "props": {
-      "id": "menu-item-personalization",
+      "id": "shipping",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "shipping",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
+        "tagTitle": "Shipping & Returns",
+        "text": "Shipping & Returns"
       }
     }
   },
-
-  "vtex.menu@2.x:menu#footer-decoration": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
-    ]
-  },
-
-  "menu-item#smartphones": {
-    "props": {
-      "id": "menu-item-smartphones",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/smartphones",
-        "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
-      }
-    }
-  },
-
-  "menu-item#videogames": {
-    "props": {
-      "id": "menu-item-videogames",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/videogames",
-        "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
-      }
-    }
-  },
-
-  "menu-item#tvs": {
-    "props": {
-      "id": "menu-item-tvs",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/tvs",
-        "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "TVs"
-      }
-    }
-  },
-
-  "vtex.menu@2.x:menu#footer-bags": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
-    ]
-  },
-
-  "menu-item#bags": {
-    "props": {
-      "id": "menu-item-bags",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/d",
-        "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
-      }
-    }
-  },
-
-  "menu-item#backpacks": {
-    "props": {
-      "id": "menu-item-backpacks",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/backpacks",
-        "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
-      }
-    }
-  },
-
-  "menu-item#necessaire": {
-    "props": {
-      "id": "menu-item-necessaire",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/necessaire",
-        "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
-      }
-    }
-  },
-
   "vtex.menu@2.x:menu#footer-clothing": {
     "props": {
       "orientation": "vertical"
@@ -208,9 +88,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
+      "menu-item#clothing-mobile"
     ]
   },
 
@@ -246,55 +124,6 @@
       "menu-item#cropped"
     ]
   },
-
-  "menu-item#decoration-mobile": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
-  },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
-    ]
-  },
-
-  "menu-item#sale-mobile": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
-  },
-  "vtex.menu@2.x:submenu.accordion#sale": {
-    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-sale-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
-    ]
-  },
-
   "menu-item#clothing": {
     "props": {
       "id": "menu-item-category-clothing",
