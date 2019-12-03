@@ -137,5 +137,110 @@
       "menu-item#category-clothing-hats",
       "menu-item#category-clothing-shoes"
     ]
-  }
+  },
+
+
+  // CHALLENGE MENU //
+    "vtex.menu@2.x:menu#category-menu-challenge": {
+      "children": [
+        "menu-item#cleansers",
+        "menu-item#conditioners",
+        "menu-item#treatments",
+        "menu-item#stylers"
+      ]
+    },
+    "menu-item#cleansers":{
+      "props": {
+        "id": "menu-item-category-cleansers",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/cleansers/d",
+          "noFollow": true,
+          "tagTitle": "Cleansers",
+          "text": "Cleansers"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#cleansers"
+      ]
+    },
+    "menu-item#conditioners":{
+      "props": {
+        "id": "menu-item-category-conditioners",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/conditioners/d",
+          "noFollow": true,
+          "tagTitle": "Conditioners",
+          "text": "Conditioners"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#conditioners"
+      ]
+    },
+    "menu-item#treatments":{
+      "props": {
+        "id": "menu-item-category-treatments",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/treatments/d",
+          "noFollow": true,
+          "tagTitle": "Treatments",
+          "text": "Treatments"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#treatments"
+      ]
+    },
+    "menu-item#stylers":{
+      "props": {
+        "id": "menu-item-category-stylers",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/stylers/d",
+          "noFollow": true,
+          "tagTitle": "Stylers",
+          "text": "Stylers"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#stylers"
+      ]
+    },
+    "vtex.menu@2.x:submenu#cleansers":{
+      "props":{
+
+      }
+    },
+    "vtex.menu@2.x:submenu#conditioners":{
+      "props":{
+
+      }
+    },
+    "vtex.menu@2.x:submenu#stylers":{
+      "props":{
+
+      }
+    },
+    "vtex.menu@2.x:submenu#treatments":{
+      "props":{
+
+      }
+    }
+
+    
 }
