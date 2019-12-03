@@ -11,7 +11,7 @@
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "vtex.menu@2.x:menu#customer-service",
-      "vtex.menu@2.x:menu#footer-clothing",
+      "vtex.menu@2.x:menu#about-us",
       "footer-spacer",
       "social-networks"
     ],
