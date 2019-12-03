@@ -6,10 +6,9 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
       "shelf#home",
+      "flex-layout.row#imagesfoot",
       "shelf#home2",
       "info-card#home",
-      "info-card#home2",
-      "info-card#home3",
       "rich-text#link",
       "newsletter"
     ]
@@ -144,5 +143,66 @@
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
     }
+  },
+
+  "flex-layout.row#imagesfoot":{
+    "children":[
+      "flex-layout.col#imagesfoot1",
+      "flex-layout.col#imagesfoot2",
+      "flex-layout.col#imagesfoot3"
+    ]
+  },
+  
+  "flex-layout.col#imagesfoot1":{
+    "children":[
+      "info-card#footimage1"
+    ],
+    "props":{
+      "blockClass": "footimagebox"
+    }
+  },
+  "flex-layout.col#imagesfoot2":{
+    "children":[
+      "info-card#footimage2"
+    ],
+    "props":{
+      "blockClass": "footimagebox"
+    }
+  },
+  "flex-layout.col#imagesfoot3":{
+    "children":[
+      "info-card#footimage3"
+    ],
+    "props":{
+      "blockClass": "footimagebox"
+    }
+  },
+  "info-card#footimage1":{
+    "props":{
+      "isFullModeStyle": true,
+      "imageUrl": "https://www.analoren.com.br/assets/templates/2/imagens/Half_346x300_Analoren_Conheca2.jpg",
+      "textPosition": "center",
+      "blockClass": "footimagecard",
+      "callToActionUrl": "https://analoren.myvtex.com/about-us"
+    }
+  },
+  "info-card#footimage2":{
+    "props":{
+      "isFullModeStyle": true,
+      "imageUrl": "https://www.analoren.com.br/assets/templates/2/imagens/Half_346x300_Analoren_Insta2.jpg",
+      "textPosition": "center",
+      "blockClass": "footimagecard",
+      "callToActionUrl": "https://www.instagram.com/analoren/"
+
+    }
+  },
+  "info-card#footimage3":{
+    "props":{
+      "isFullModeStyle": true,
+      "imageUrl": "https://www.analoren.com.br/assets/templates/2/imagens/Half_346x300_Analoren_Embalagem2.jpg",
+      "textPosition": "center",
+      "blockClass": "footimagecard"
+    }
   }
+
 }
