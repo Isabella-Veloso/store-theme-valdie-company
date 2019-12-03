@@ -16,6 +16,11 @@
   justify-content: center;
 }
 
+.logoImage{
+  padding: 10px;
+  width: 100px;
+}
+
 .container--question .paragraph {
   text-align: center;
   max-width: 540px;
