@@ -118,15 +118,18 @@
   width: 100%;
   height: 100%;
 }
+@media only screen and (max-width: 640px){
+  .logoImage{
+    width: 50px;
+    padding: 10px;
+  }
+}
 
 @media only screen and (min-width: 640px) {
   .newsletter .container {
     padding: 140px;
   }
-  .logoImage{
-    width: 50px;
-    padding: 10px;
-  }
+
   .label {
     font-size: 40px;
   }
