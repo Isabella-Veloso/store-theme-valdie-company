@@ -6,10 +6,9 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
       "shelf#home",
-      "flex-layout.row#imagesfoot",
-      "shelf#home2",
       "info-card#home",
-      "rich-text#link",
+      "shelf#home2",
+      "flex-layout.row#imagesfoot",
       "newsletter"
     ]
   },
