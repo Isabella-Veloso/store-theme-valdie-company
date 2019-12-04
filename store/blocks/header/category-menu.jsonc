@@ -145,8 +145,8 @@
       "children": [
         "menu-item#cleansers",
         "menu-item#conditioners",
-        "menu-item#treatments",
-        "menu-item#stylers"
+        "menu-item#treatments"
+        //"menu-item#stylers"
       ]
     },
     "menu-item#cleansers":{
