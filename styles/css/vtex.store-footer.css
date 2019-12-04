@@ -9,3 +9,7 @@
 .row--payment-methods {
   padding-top: 16px;
 }
+
+.footerLayout {
+  border-top: 2px solid #85144B;
+}

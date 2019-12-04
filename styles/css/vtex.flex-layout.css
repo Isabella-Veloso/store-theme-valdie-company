@@ -1,14 +1,21 @@
-.flexRow--deals {
+.flexRow--deals,
+.flexRow--deals2 {
   background-color: #851446;
   padding: 14px 0px;
 }
 
-.flexRow--deals .stretchChildrenWidth {
+.flexRow--deals .stretchChildrenWidth,
+.flexRow--deals2 .stretchChildrenWidth {
   align-items: center;
 }
 
-.flexRow--deals .flexCol {
+.flexRow--deals .flexCol,
+.flexRow--deals2 .flexCol {
   align-items: center;
+}
+
+.flexRow--deals2 {
+  margin-top: 20px;
 }
 
 .flexCol--filterCol {

@@ -10,11 +10,12 @@
       //"info-card#home",
       "shelf#home2",
       "flex-layout.row#imagesfoot",
-      "newsletter"
+      "newsletter",
+      "flex-layout.row#deals2"
     ]
   },
-  "image#christmasImage":{
-    "props":{
+  "image#christmasImage": {
+    "props": {
       "blockClass": "middleImage"
     }
   },
@@ -22,8 +23,7 @@
   "carousel#home": {
     "props": {
       "autoplay": false,
-      "banners": [
-        {
+      "banners": [{
           "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         },
@@ -150,40 +150,40 @@
     }
   },
 
-  "flex-layout.row#imagesfoot":{
-    "children":[
+  "flex-layout.row#imagesfoot": {
+    "children": [
       "flex-layout.col#imagesfoot1",
       "flex-layout.col#imagesfoot2",
       "flex-layout.col#imagesfoot3"
     ]
   },
-  
-  "flex-layout.col#imagesfoot1":{
-    "children":[
+
+  "flex-layout.col#imagesfoot1": {
+    "children": [
       "info-card#footimage1"
     ],
-    "props":{
+    "props": {
       "blockClass": "footimagebox"
     }
   },
-  "flex-layout.col#imagesfoot2":{
-    "children":[
+  "flex-layout.col#imagesfoot2": {
+    "children": [
       "info-card#footimage2"
     ],
-    "props":{
+    "props": {
       "blockClass": "footimagebox"
     }
   },
-  "flex-layout.col#imagesfoot3":{
-    "children":[
+  "flex-layout.col#imagesfoot3": {
+    "children": [
       "info-card#footimage3"
     ],
-    "props":{
+    "props": {
       "blockClass": "footimagebox"
     }
   },
-  "info-card#footimage1":{
-    "props":{
+  "info-card#footimage1": {
+    "props": {
       "isFullModeStyle": true,
       "imageUrl": "https://www.analoren.com.br/assets/templates/2/imagens/Half_346x300_Analoren_Conheca2.jpg",
       "textPosition": "center",
@@ -191,8 +191,8 @@
       "callToActionUrl": "https://analoren.myvtex.com/about-us"
     }
   },
-  "info-card#footimage2":{
-    "props":{
+  "info-card#footimage2": {
+    "props": {
       "isFullModeStyle": true,
       "imageUrl": "https://www.analoren.com.br/assets/templates/2/imagens/Half_346x300_Analoren_Insta2.jpg",
       "textPosition": "center",
@@ -201,8 +201,8 @@
 
     }
   },
-  "info-card#footimage3":{
-    "props":{
+  "info-card#footimage3": {
+    "props": {
       "isFullModeStyle": true,
       "imageUrl": "https://www.analoren.com.br/assets/templates/2/imagens/Half_346x300_Analoren_Embalagem2.jpg",
       "textPosition": "center",
