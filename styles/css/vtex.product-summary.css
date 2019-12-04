@@ -1,0 +1,11 @@
+.productBrandName{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.productBrandName::before{
+    content: "By ";
+    font-size: 13px;
+    font-weight: 700;
+    color: #000;
+}
